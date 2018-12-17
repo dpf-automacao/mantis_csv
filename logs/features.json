@@ -1,0 +1,83 @@
+[
+  {
+    "uri": "features/specs/baixar_csv.feature",
+    "id": "baixar-csv-mantis",
+    "keyword": "Funcionalidade",
+    "name": "Baixar CSV Mantis",
+    "description": "",
+    "line": 3,
+    "elements": [
+      {
+        "id": "baixar-csv-mantis;baixar-csv",
+        "keyword": "Cenario",
+        "name": "Baixar CSV",
+        "description": "",
+        "line": 6,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@csv",
+            "line": 5
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.12.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33915
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.12.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29899
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que estou na tela do Mantis",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/baixar_csv.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3244294059
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "aciono os filtros dos projetos",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/baixar_csv.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18223091512
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.12.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 144881767
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
